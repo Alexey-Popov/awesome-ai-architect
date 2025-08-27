@@ -5,9 +5,11 @@ summary: "Measure AI system performance, track costs, and monitor quality using 
 
 # Evaluation & Observability
 
-> **One-line promise**: Build AI systems you can trust by measuring performance, tracking costs, and catching problems before users do.
+> Build AI systems you can trust by measuring performance, tracking costs, and catching problems before users do.
 
-## TL;DR (Explain Like I'm 12)
+![ai architect evaluation and observability](/img/evaluation-and-observability.png)
+
+## TL;DR
 - **Evaluation** is like giving your AI a test to see how well it's doing its job.
 - **Observability** means watching your AI system to see what's happening inside it.
 - **Tracing** follows a user's request through your system like following footprints in the snow.
@@ -29,26 +31,8 @@ summary: "Measure AI system performance, track costs, and monitor quality using 
 
 **Cost tracking** monitors how much money your AI system spends on API calls, compute resources, and other services. This helps you optimize spending and avoid budget surprises.
 
-## Diagram (Mermaid)
-```mermaid
-flowchart LR
-    A[User Request] --> B[Request ID Generator]
-    B --> C[AI Processing]
-    C --> D[Response Generation]
-    D --> E[Evaluation Engine]
-    E --> F[Quality Score]
-    
-    G[Cost Tracker] --> C
-    G --> D
-    
-    H[Performance Monitor] --> C
-    H --> D
-    
-    I[Trace Logger] --> B
-    I --> C
-    I --> D
-    I --> E
-```
+## Diagram
+![Evaluation and Observability](/img/diagrams/evaluation-and-observability.png)
 
 ## Key Concepts
 - **Task Success Evaluation**: Measuring if AI completes specific tasks correctly
@@ -90,14 +74,4 @@ flowchart LR
 - **Try it**: [LangSmith Quickstart](https://docs.smith.langchain.com/quickstart) - Start monitoring your AI app in minutes
 - **Connect**: [ML Observability Community](https://github.com/topics/ml-observability) - Join discussions about ML monitoring and evaluation
 
-## Sources
-https://docs.smith.langchain.com/
-https://docs.wandb.ai/guides/evaluation
-https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/monitoring
-https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html
-https://cloud.google.com/ai-platform/prediction/docs/continuous-monitoring
-https://mlflow.org/docs/latest/tracking.html
-https://smith.langchain.com/
-https://wandb.ai/
-https://azure.microsoft.com/en-us/products/ai-studio
-https://github.com/openai/evals
+

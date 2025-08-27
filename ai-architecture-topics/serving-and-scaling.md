@@ -5,9 +5,11 @@ summary: "Deploy AI models in production with inference servers, GPU optimizatio
 
 # Serving & Scaling
 
-> **One-line promise**: Deploy AI models that handle thousands of users with fast response times and automatic scaling.
+> Deploy AI models that handle thousands of users with fast response times and automatic scaling.
 
-## TL;DR (Explain Like I'm 12)
+![serving and scaling](/img/serving-and-scaling.png)
+
+## TL;DR
 - **Inference servers** are like restaurants that serve AI answers instead of food - they take orders and deliver results quickly.
 - **Batching** is like cooking multiple meals at once instead of one at a time - it's more efficient.
 - **GPU vs CPU** is like using a sports car vs a regular car - GPUs are faster for AI but cost more.
@@ -29,29 +31,8 @@ summary: "Deploy AI models in production with inference servers, GPU optimizatio
 
 **Autoscaling** automatically adjusts your system size based on demand. When traffic increases, it adds more servers. When traffic decreases, it removes servers to save money.
 
-## Diagram (Mermaid)
-```mermaid
-flowchart LR
-    A[User Requests] --> B[Load Balancer]
-    B --> C[Inference Server 1]
-    B --> D[Inference Server 2]
-    B --> E[Inference Server N]
-    
-    C --> F[GPU/CPU Pool]
-    D --> F
-    E --> F
-    
-    F --> G[Model Cache]
-    F --> H[Response Cache]
-    
-    G --> I[AI Model]
-    H --> J[Fast Response]
-    I --> K[Processed Result]
-    
-    K --> L[Response Queue]
-    J --> L
-    L --> M[User]
-```
+## Diagram
+![Serving and Scaling](/img/diagrams/serving-and-scaling.png)
 
 ## Key Concepts
 - **Inference Server**: Software that runs AI models and serves predictions
@@ -101,14 +82,4 @@ flowchart LR
 - **Try it**: [vLLM Quickstart](https://docs.vllm.ai/en/latest/getting_started/quickstart.html) - Deploy your first high-performance inference server
 - **Connect**: [AI Inference Community](https://github.com/topics/ai-inference) - Join discussions about AI model serving
 
-## Sources
-https://docs.vllm.ai/
-https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html
-https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html
-https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-managed-online-endpoints
-https://cloud.google.com/ai-platform/prediction/docs
-https://www.tensorflow.org/tfx/serving/architecture
-https://vllm.ai/
-https://developer.nvidia.com/tensorrt
-https://aws.amazon.com/machine-learning/inferentia/
-https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-managed-online-endpoints
+

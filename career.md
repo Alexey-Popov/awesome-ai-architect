@@ -5,9 +5,11 @@ summary: "Navigate your AI architecture career with role snapshots, portfolio ti
 
 # AI Architecture Career Guide
 
-> **One-line promise**: Build a successful AI architecture career with clear role paths, portfolio strategies, and profile optimization techniques.
+> Build a successful AI architecture career with clear role paths, portfolio strategies, and profile optimization techniques.
 
-## TL;DR (Explain Like I'm 12)
+![ai architect career](img/career.png)
+
+## TL;DR
 - **AI Consultant** helps companies figure out how to use AI to solve business problems.
 - **AI Architect** designs the technical systems that make AI work in real companies.
 - **Cloud Solutions Architect** builds AI systems that run on cloud platforms like AWS or Azure.
@@ -30,23 +32,7 @@ summary: "Navigate your AI architecture career with role snapshots, portfolio ti
 **Profile optimization** ensures recruiters and hiring managers can find you and understand your value proposition.
 
 ## Diagram (Mermaid)
-```mermaid
-flowchart TD
-    A[Technical Skills] --> B[AI Consultant]
-    A --> C[AI Architect]
-    A --> D[Cloud Solutions Architect]
-    A --> E[Solutions Architect]
-    
-    F[Business Skills] --> B
-    G[System Design] --> C
-    H[Cloud Expertise] --> D
-    I[Strategic Thinking] --> E
-    
-    B --> J[Senior Consultant]
-    C --> K[Lead Architect]
-    D --> L[Principal Architect]
-    E --> M[CTO/VP Engineering]
-```
+![Career](/img/diagrams/career.png)
 
 ## Key Concepts
 - **Role Specialization**: Different AI architecture roles require different skill combinations
@@ -176,8 +162,4 @@ flowchart TD
 - **Try it**: [LinkedIn Profile Optimization](https://www.linkedin.com/learning/topics/profile-optimization) - Optimize your professional profile
 - **Connect**: [AI Architecture Community](https://github.com/topics/ai-architecture) - Join discussions about AI architecture careers
 
-## Sources
-https://www.tealhq.com/career-paths
-https://www.linkedin.com/jobs/ai-architect-jobs/
-https://aws.amazon.com/blogs/architecture/
-https://learn.microsoft.com/en-us/azure/architecture/
+

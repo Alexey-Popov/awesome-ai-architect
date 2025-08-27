@@ -5,9 +5,11 @@ summary: "Protect your AI systems from attacks, data leaks, and harmful outputs 
 
 # Safety & Security
 
-> **One-line promise**: Build AI systems that are safe, secure, and protected from common attacks and harmful outputs.
+> Build AI systems that are safe, secure, and protected from common attacks and harmful outputs.
 
-## TL;DR (Explain Like I'm 12)
+![ai architect safety and security](/img/safety-and-security.png)
+
+## TL;DR
 - **Prompt injection** is like tricking an AI into doing something it shouldn't by giving it sneaky instructions.
 - **Data leakage** happens when AI accidentally shares private information it shouldn't know about.
 - **Guardrails** are safety rules that stop AI from doing dangerous or harmful things.
@@ -29,22 +31,8 @@ AI systems can be tricked, hacked, or made to do harmful things if not properly 
 
 **PII (Personally Identifiable Information)** detection automatically finds and protects personal data like names, addresses, phone numbers, and financial information.
 
-## Diagram (Mermaid)
-```mermaid
-flowchart LR
-    A[User Input] --> B[Input Validation]
-    B --> C[Prompt Injection Check]
-    C --> D[AI Model]
-    D --> E[Output Filtering]
-    E --> F[PII Detection]
-    F --> G[Content Moderation]
-    G --> H[Safe Output]
-    
-    I[Security Rules] --> B
-    I --> E
-    I --> F
-    I --> G
-```
+## Diagram
+![Safety and Security](/img/diagrams/safety-and-security.png)
 
 ## Key Concepts
 - **Prompt Injection**: Attack where malicious instructions override AI safety rules
@@ -85,13 +73,4 @@ flowchart LR
 - **Try it**: [NeMo Guardrails Quickstart](https://docs.anyscale.com/guardrails/getting-started) - Add safety to your AI app in minutes
 - **Connect**: [AI Security Community](https://github.com/topics/ai-security) - Join discussions about AI safety and security
 
-## Sources
-https://owasp.org/www-project-top-10-for-large-language-model-applications/
-https://docs.anyscale.com/guardrails/
-https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/security
-https://docs.aws.amazon.com/sagemaker/latest/dg/security-iam.html
-https://cloud.google.com/security/ai
-https://python.langchain.com/docs/security/
-https://github.com/NVIDIA/NeMo-Guardrails
-https://azure.microsoft.com/en-us/products/cognitive-services/content-safety
-https://platform.openai.com/docs/guides/moderation
+

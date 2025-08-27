@@ -5,9 +5,11 @@ summary: "Prepare for AI architecture interviews with system design frameworks, 
 
 # AI Architecture Interview Prep
 
-> **One-line promise**: Ace AI architecture interviews with proven frameworks, practice questions, and strategic preparation techniques.
+> Ace AI architecture interviews with proven frameworks, practice questions, and strategic preparation techniques.
 
-## TL;DR (Explain Like I'm 12)
+![ai architect interview prep](/img/interview-prep.png)
+
+## TL;DR
 - **System design interviews** are like being asked to design a city - you need to think about roads, buildings, and how everything connects.
 - **GenAI system design** means designing AI systems that can generate text, images, or other content.
 - **Practice questions** help you get comfortable with the interview format and common problems.
@@ -29,32 +31,8 @@ summary: "Prepare for AI architecture interviews with system design frameworks, 
 
 **Practice questions** help you develop the mental models and communication skills needed to succeed in real interviews.
 
-## Diagram (Mermaid)
-```mermaid
-flowchart TD
-    A[Interview Question] --> B[Clarify Requirements]
-    B --> C[High-Level Design]
-    C --> D[Deep Dive Components]
-    D --> E[Scale & Optimize]
-    E --> F[Wrap Up & Trade-offs]
-    
-    G[Functional Requirements] --> B
-    H[Non-Functional Requirements] --> B
-    I[Constraints] --> B
-    
-    J[User Interface] --> C
-    K[Data Flow] --> C
-    L[Core Components] --> C
-    
-    M[AI Models] --> D
-    N[Data Storage] --> D
-    O[APIs & Services] --> D
-    
-    P[Performance] --> E
-    Q[Scalability] --> E
-    R[Cost] --> E
-    S[Security] --> E
-```
+## Diagram
+![Interview Prep](/img/diagrams/interview-prep.png)
 
 ## Key Concepts
 - **Requirements Clarification**: Understanding what you're building and why
@@ -270,8 +248,4 @@ flowchart TD
 - **Try it**: [System Design Practice](https://bytebytego.com/) - Start practicing with real system design questions
 - **Connect**: [AI Interview Community](https://github.com/topics/ai-interview) - Join discussions about AI interview preparation
 
-## Sources
-https://bytebytego.com/
-https://github.com/donnemartin/system-design-primer
-https://github.com/topics/ai-system-design
-https://github.com/topics/interview-prep
+

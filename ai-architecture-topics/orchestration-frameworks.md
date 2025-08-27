@@ -5,9 +5,11 @@ summary: "Coordinate multiple AI services and build complex workflows using orch
 
 # Orchestration Frameworks
 
-> **One-line promise**: Build complex AI workflows that coordinate multiple services, handle errors gracefully, and scale automatically.
+> Build complex AI workflows that coordinate multiple services, handle errors gracefully, and scale automatically.
 
-## TL;DR (Explain Like I'm 12)
+![ai architect orchestration frameworks](/img/orchestration-frameworks.png)
+
+## TL;DR
 - **Orchestration** is like being a conductor of an orchestra - you tell different AI services when to play and how to work together.
 - **Workflows** are step-by-step recipes that tell your AI system what to do first, second, and third.
 - **State management** keeps track of what's happening in your AI system, like remembering where you are in a story.
@@ -29,27 +31,8 @@ summary: "Coordinate multiple AI services and build complex workflows using orch
 
 **Error handling** ensures your AI system can recover from failures gracefully. If one service fails, the orchestration framework can retry, use a backup, or notify users appropriately.
 
-## Diagram (Mermaid)
-```mermaid
-flowchart LR
-    A[User Request] --> B[Orchestrator]
-    B --> C[Step 1: Input Processing]
-    C --> D[Step 2: AI Analysis]
-    D --> E[Step 3: External API Call]
-    E --> F[Step 4: Response Generation]
-    F --> G[Final Output]
-    
-    H[State Manager] --> B
-    H --> C
-    H --> D
-    H --> E
-    H --> F
-    
-    I[Error Handler] --> C
-    I --> D
-    I --> E
-    I --> F
-```
+## Diagram
+![Orchestration Frameworks](/img/diagrams/orchestration-frameworks.png)
 
 ## Key Concepts
 - **Orchestrator**: Central coordinator that manages workflow execution
@@ -97,14 +80,4 @@ flowchart LR
 - **Try it**: [LangChain Quickstart](https://python.langchain.com/docs/get_started/quickstart) - Build your first AI workflow in minutes
 - **Connect**: [AI Orchestration Community](https://github.com/topics/ai-orchestration) - Join discussions about AI workflow management
 
-## Sources
-https://python.langchain.com/docs/get_started/introduction
-https://langchain-ai.github.io/langgraph/
-https://learn.microsoft.com/en-us/semantic-kernel/overview/
-https://docs.prefect.io/
-https://airflow.apache.org/
-https://kubernetes.io/docs/concepts/workloads/controllers/job/
-https://langchain.com/
-https://langchain-ai.github.io/langgraph/
-https://learn.microsoft.com/en-us/semantic-kernel/
-https://www.prefect.io/
+

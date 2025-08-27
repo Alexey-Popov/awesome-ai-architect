@@ -2,7 +2,7 @@
 
 > 10x your AI Architect journey with plain‑language, hands‑on guides that blend AI engineering and solution architecture.
 
-*Figure: A simplified AI system architecture diagram illustrating the flow from data ingestion to model training, inference, and outputs. Visualizing the workflow helps architects spot bottlenecks and plan integrations.*
+![awesome-ai-architect](img/awesome-ai-architect-kb.png)
 
 ## 📚 Table of Contents
 
@@ -15,8 +15,8 @@
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
 
 ### 🎓 Learning Resources
-- [Courses](courses.md) - Carnegie Mellon and other reputable AI engineering courses
-- [Certifications](certifications.md) - AWS, Azure, and Google Cloud architecture + AI/ML certs
+- [Courses](courses.md) - AI engineering and solution architecture courses
+- [Certifications](certifications.md) - AI engineering, solution architecture and cloud certifications
 
 ### 💼 Career Development
 - [Career Guide](career.md) - Role snapshots, portfolio tips, and profile building
@@ -32,7 +32,7 @@ This repository curates learning resources, certifications, career tips, and int
 
 ## 🎯 What You'll Find Here
 
-- **Plain-language explanations** (ELI12 style) of complex AI concepts
+- **Plain-language explanations** of complex AI concepts
 - **Hands-on checklists** and practical implementation steps
 - **Real-world examples** with source attribution and "why it's awesome" explanations
 - **Visual diagrams** using Mermaid for architectural clarity
@@ -49,20 +49,25 @@ This repository curates learning resources, certifications, career tips, and int
 
 ## 📖 How to Use This Guide
 
+![awesome-ai-architect-welcome.png](img/awesome-ai-architect-welcome.png)
+
+<div align="center">
+
+### ☕📚 Take a sip, learn a bit  
+*Grab a drink and enjoy the content and self-development.*
+
+</div>
+
+
 Each page follows a consistent structure:
 - **TL;DR** - Simple explanation in plain language
 - **Quickstart** - Actionable steps you can try now
 - **The Idea** - Deeper context and concepts
-- **Diagram** - Visual representation of the system
 - **Key Concepts** - Core ideas with real-world examples
 - **When to Use This** - Clear guidance on applicability
 - **Real-World Examples** - Practical implementations with sources
 - **Common Pitfalls** - What to avoid and how
 - **Next Steps** - Where to learn more
-
-## 🤝 Contributing
-
-This is a curated resource focused on quality over quantity. If you have suggestions for improvements or find broken links, please open an issue.
 
 ## 📄 License
 

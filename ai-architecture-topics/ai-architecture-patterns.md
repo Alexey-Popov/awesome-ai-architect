@@ -5,9 +5,12 @@ summary: "Learn the core patterns for building AI systems: RAG, agents, pipeline
 
 # AI Architecture Patterns
 
-> **One-line promise**: Design and build AI systems using proven patterns like RAG, agents, and orchestration workflows.
+> Design and build AI systems using proven patterns like RAG, agents, and orchestration workflows.
 
-## TL;DR (Explain Like I'm 12)
+![Patterns AI Architecture ](/img/ai-architecture-patterns.png)
+
+
+## TL;DR
 - **RAG (Retrieval Augmented Generation)** is like giving an AI a smart library card - it finds relevant information before answering questions.
 - **Agents** are AI helpers that can use tools, make decisions, and work step-by-step like a human assistant.
 - **Pipelines** connect different AI services together like an assembly line, where each step adds value.
@@ -30,29 +33,8 @@ AI architecture patterns are reusable blueprints for building intelligent system
 
 **Orchestration** manages the flow between different AI services, handling errors, retries, and making sure everything happens in the right order.
 
-## Diagram (Mermaid)
-```mermaid
-flowchart LR
-    A[User Question] --> B[Router/Orchestrator]
-    B --> C[RAG System]
-    B --> D[Agent System]
-    B --> E[Pipeline System]
-    
-    C --> F[(Vector Database)]
-    C --> G[LLM Generator]
-    
-    D --> H[Tool 1]
-    D --> I[Tool 2]
-    D --> J[Decision Maker]
-    
-    E --> K[Service 1]
-    E --> L[Service 2]
-    E --> M[Service 3]
-    
-    G --> N[Final Answer]
-    J --> N
-    M --> N
-```
+## Diagram
+![AI Architecture Patterns](/img/diagrams/ai-architecture-patterns.png)
 
 ## Key Concepts
 - **RAG Pattern**: Search + Generate = Accurate answers with sources
@@ -90,13 +72,4 @@ flowchart LR
 - **Try it**: [LangChain Quickstart](https://python.langchain.com/docs/get_started/quickstart) - Build your first AI pipeline in minutes
 - **Connect**: [AI Architecture Community](https://github.com/topics/ai-architecture) - Join discussions about AI system design
 
-## Sources
-https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/rag-patterns
-https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/welcome.html
-https://cloud.google.com/architecture/ai-ml
-https://python.langchain.com/docs/guides/production
-https://langchain-ai.github.io/langgraph/
-https://openai.com/blog/chatgpt-can-now-browse-the-internet
-https://github.com/features/copilot
-https://langchain.com/
-https://azure.microsoft.com/en-us/products/ai-studio
+

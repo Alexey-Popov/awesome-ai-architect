@@ -5,9 +5,11 @@ summary: "Validate your AI and architecture skills with industry-recognized cert
 
 # AI & Architecture Certifications
 
-> **One-line promise**: Prove your expertise and advance your career with certifications that demonstrate real-world AI and architecture skills.
+> Prove your expertise and advance your career with certifications that demonstrate real-world AI and architecture skills.
 
-## TL;DR (Explain Like I'm 12)
+![ai architect certifications](/img/certifications.png)
+
+## TL;DR
 - **AWS certifications** are like getting a driver's license for Amazon's cloud services.
 - **Azure certifications** prove you know how to use Microsoft's cloud tools.
 - **Google Cloud certifications** show you can work with Google's cloud platform.
@@ -29,22 +31,8 @@ summary: "Validate your AI and architecture skills with industry-recognized cert
 
 **Combined approach** of architecture + AI/ML certifications makes you a complete AI architect who can both design systems and implement AI solutions.
 
-## Diagram (Mermaid)
-```mermaid
-flowchart TD
-    A[Choose Cloud Platform] --> B[Get Architecture Cert]
-    B --> C[Get AI/ML Cert]
-    C --> D[Build Portfolio]
-    D --> E[Apply for Jobs]
-    
-    F[AWS] --> B
-    G[Azure] --> B
-    H[Google Cloud] --> B
-    
-    I[Solutions Architect] --> B
-    J[AI Engineer] --> C
-    K[Machine Learning] --> C
-```
+## Diagram
+![Certifications](/img/diagrams/certifications.png)
 
 ## Key Concepts
 - **Cloud Platform**: AWS, Azure, or Google Cloud infrastructure and services
@@ -149,17 +137,4 @@ flowchart TD
 - **Try it**: [AWS Free Tier](https://aws.amazon.com/free/) - Start building with AWS services for free
 - **Connect**: [Cloud Certification Community](https://github.com/topics/cloud-certification) - Join discussions about cloud certifications
 
-## Sources
-https://aws.amazon.com/certification/
-https://learn.microsoft.com/en-us/certifications/
-https://cloud.google.com/training
-https://aws.amazon.com/certification/certified-solutions-architect-associate/
-https://aws.amazon.com/certification/certified-solutions-architect-professional/
-https://aws.amazon.com/certification/certified-machine-learning-specialty/
-https://learn.microsoft.com/en-us/certifications/azure-solutions-architect/
-https://learn.microsoft.com/en-us/certifications/azure-administrator/
-https://learn.microsoft.com/en-us/certifications/azure-ai-engineer/
-https://cloud.google.com/certification/cloud-architect
-https://cloud.google.com/certification/cloud-engineer
-https://cloud.google.com/certification/machine-learning-engineer
-https://cloudresumechallenge.dev/
+

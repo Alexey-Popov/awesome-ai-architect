@@ -5,9 +5,11 @@ summary: "Learn how to store, search, and retrieve AI knowledge using vector dat
 
 # Vector Stores & Embeddings
 
-> **One-line promise**: Build AI systems that can find and use relevant information quickly using smart search.
+> Build AI systems that can find and use relevant information quickly using smart search.
 
-## TL;DR (Explain Like I'm 12)
+![ai architect vector stores and embeddings](/img/vector-stores-and-embeddings.png)
+
+## TL;DR
 - **Embeddings** are like giving each piece of text a special number code that represents what it means.
 - **Vector stores** are smart databases that can find similar things by comparing these number codes.
 - **Similarity search** works like finding friends who like the same things - the closer the numbers, the more similar the meaning.
@@ -29,21 +31,8 @@ summary: "Learn how to store, search, and retrieve AI knowledge using vector dat
 
 **Metadata** adds context to each chunk - where it came from, when it was created, what type of content it is. This helps filter and organize search results.
 
-## Diagram (Mermaid)
-```mermaid
-flowchart LR
-    A[Original Documents] --> B[Text Chunker]
-    B --> C[Text Chunks]
-    C --> D[Embedding Model]
-    D --> E[Vector Embeddings]
-    E --> F[(Vector Database)]
-    
-    G[User Query] --> H[Query Embedding]
-    H --> I[Similarity Search]
-    I --> F
-    F --> J[Top Results]
-    J --> K[Retrieved Context]
-```
+## Diagram
+![Vector Stores and Embeddings](/img/diagrams/vector-stores-and-embeddings.png)
 
 ## Key Concepts
 - **Embedding Model**: AI that converts text to numbers (vectors) representing meaning
@@ -84,14 +73,4 @@ flowchart LR
 - **Try it**: [Pinecone Quickstart](https://docs.pinecone.io/docs/quickstart) - Build your first vector search app in minutes
 - **Connect**: [Vector Search Community](https://github.com/topics/vector-database) - Join discussions about vector databases and embeddings
 
-## Sources
-https://docs.pinecone.io/
-https://weaviate.io/developers/weaviate/current/vector-db/vector-search.html
-https://docs.trychroma.com/getting-started
-https://platform.openai.com/docs/guides/embeddings/use-cases
-https://www.sbert.net/
-https://zilliz.com/comparison
-https://www.pinecone.io/
-https://weaviate.io/
-https://www.trychroma.com/
-https://platform.openai.com/docs/guides/embeddings
+
