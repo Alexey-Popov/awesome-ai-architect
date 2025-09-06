@@ -245,6 +245,7 @@ We will use PostgreSQL as our primary database technology.
 - [Evaluation & Observability](../ai-architecture-topics/evaluation-and-observability.md) - Monitoring and testing architecture decisions
 - [Safety & Security](../ai-architecture-topics/safety-and-security.md) - Security and safety architectural considerations
 - [Orchestration Frameworks](../ai-architecture-topics/orchestration-frameworks.md) - Workflow and orchestration decisions
+- [Clean Architecture](clean-architecture.md) - Organizing code with dependency inversion and separation of concerns
 - [Career Guide](../career.md) - Solution architect career development
 - [Interview Prep](../interview-prep.md) - System design and architecture interview preparation
 

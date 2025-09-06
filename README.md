@@ -26,6 +26,7 @@
 
 ### 🏛️ Solution Architecture
 - [Architecture Decision Records](solution-archtecture/architecture-decision-records.md) - Documenting architectural decisions and rationale
+- [Clean Architecture](solution-archtecture/clean-architecture.md) - Organizing code with dependency inversion and separation of concerns
 
 ## 🚀 Introduction
 
