@@ -24,6 +24,9 @@
 ### 🎯 Interview Preparation
 - [Interview Prep](interview-prep.md) - GenAI system design, practice questions, and frameworks
 
+### 🏛️ Solution Architecture
+- [Architecture Decision Records](solution-archtecture/architecture-decision-records.md) - Documenting architectural decisions and rationale
+
 ## 🚀 Introduction
 
 Artificial Intelligence (AI) is reshaping how modern systems are designed. Solution architects are now expected to integrate machine learning models, data pipelines, and intelligent services into scalable and secure architectures that deliver business value.
