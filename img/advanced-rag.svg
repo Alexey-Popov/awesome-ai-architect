@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100">
+  <rect width="200" height="100" fill="#e0f7fa"/>
+  <text x="100" y="55" text-anchor="middle" font-size="20" fill="#006064">Advanced RAG</text>
+</svg>

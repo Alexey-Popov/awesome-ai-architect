@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="120">
+  <rect x="10" y="40" width="80" height="40" fill="#c8e6c9" />
+  <text x="50" y="65" text-anchor="middle" font-size="12">Query</text>
+  <rect x="110" y="40" width="80" height="40" fill="#ffcdd2" />
+  <text x="150" y="65" text-anchor="middle" font-size="12">Retrieve</text>
+  <rect x="210" y="40" width="80" height="40" fill="#bbdefb" />
+  <text x="250" y="65" text-anchor="middle" font-size="12">Generate</text>
+  <line x1="90" y1="60" x2="110" y2="60" stroke="#000" />
+  <line x1="190" y1="60" x2="210" y2="60" stroke="#000" />
+</svg>
