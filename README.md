@@ -13,6 +13,7 @@
 - [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Testing, monitoring, and cost tracking
 - [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10, guardrails, and best practices
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
+- [Model Routing](ai-architecture-topics/model-routing.md) - Route requests to the right model using rules or ensembles
 
 ### 🎓 Learning Resources
 - [Courses](courses.md) - AI engineering and solution architecture courses
@@ -47,9 +48,10 @@ This repository curates learning resources, certifications, career tips, and int
 ## 🚦 Quick Start
 
 1. **New to AI Architecture?** Start with [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md)
-2. **Building RAG systems?** Check [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md)
-3. **Preparing for interviews?** Jump to [Interview Prep](interview-prep.md)
-4. **Career planning?** Explore [Career Guide](career.md)
+2. **Choosing between models?** Learn [Model Routing](ai-architecture-topics/model-routing.md)
+3. **Building RAG systems?** Check [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md)
+4. **Preparing for interviews?** Jump to [Interview Prep](interview-prep.md)
+5. **Career planning?** Explore [Career Guide](career.md)
 
 ## 📖 How to Use This Guide
 
