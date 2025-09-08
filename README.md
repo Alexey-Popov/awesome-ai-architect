@@ -11,6 +11,7 @@
 - [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md) - Storage, retrieval, and similarity search
 - [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - Inference servers, GPUs, and autoscaling
 - [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Testing, monitoring, and cost tracking
+- [Observability](ai-architecture-topics/observability.md) - Prometheus, OpenTelemetry, drift detection, and alerting practices
 - [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10, guardrails, and best practices
 - [Red Teaming](ai-architecture-topics/red-teaming.md) - Scenario generation, attack simulations, and reporting workflows
 - [Security & Compliance](ai-architecture-topics/security-compliance.md) - Regulatory requirements, encryption, and model provenance tracking
