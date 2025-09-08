@@ -13,6 +13,8 @@
 - [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Testing, monitoring, and cost tracking
 - [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10, guardrails, and best practices
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
+- [Data Scraping](ai-architecture-topics/data-scraping.md) - robots.txt, throttling, and content licensing
+- [Databases for AI](databases-for-ai.md) - storage choices and responsible data sourcing
 
 ### 🎓 Learning Resources
 - [Courses](courses.md) - AI engineering and solution architecture courses
