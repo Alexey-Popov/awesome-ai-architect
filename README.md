@@ -12,6 +12,7 @@
 - [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - Inference servers, GPUs, and autoscaling
 - [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Testing, monitoring, and cost tracking
 - [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10, guardrails, and best practices
+- [Security & Compliance](ai-architecture-topics/security-compliance.md) - Regulatory requirements, encryption, and model provenance tracking
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
 - [Data Lakes & Marts](ai-architecture-topics/data-lakes-and-marts.md) - Lakehouse concepts, ETL/ELT pipelines, and governance
 - [AI Workflow Automation](ai-architecture-topics/ai-workflow-automation.md) - DAG schedulers and model CI/CD
