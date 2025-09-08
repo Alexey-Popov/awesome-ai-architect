@@ -5,42 +5,47 @@ summary: "Dynamically choose the best model for a request using rules, evaluatio
 
 # Model Routing
 
-> Send each task to the model that can handle it best while balancing speed, cost, and accuracy.
+> Automatically choose the right AI model for each request to balance cost, speed, and quality.
 
 ## TL;DR
-- **Rule-based routers** dispatch requests based on simple heuristics like input length.
-- **Eval-driven routers** run small probes or embeddings to decide which model to call.
-- **Cascade fallbacks** try a cheap model first and escalate if confidence is low.
+- **Model routing** sends each request to the model that's most likely to handle it well.
+- **Rule-based routing** uses simple rules like keywords or metadata to pick a model.
+- **Confidence-based routing** starts with a cheap model and escalates when confidence is low.
+- **Ensemble routing** queries multiple models and combines their answers for better results.
 
 ## Quickstart (Do this now)
-1. **List candidate models** and their strengths.
-2. **Define routing rules** or evaluation steps.
-3. **Implement logging** to track which model was chosen and why.
-4. **Monitor performance** and adjust the rules.
+1. **List your models**: Note their strengths, costs, and latency.
+2. **Add a router**: Start with simple if/then rules to select models.
+3. **Track confidence**: Measure response quality or uncertainty.
+4. **Fallback smartly**: Re-run low-confidence answers on a stronger model.
+5. **Experiment with ensembles**: Try majority vote or scoring across models.
 
 ## The Idea (Slightly deeper)
-Routing logic reduces cost and improves reliability by steering requests to different models. It can be as simple as a switch statement or as advanced as a learned policy that predicts which model will succeed.
+Model routing is like having a traffic controller for AI models. Instead of sending every request to the biggest or most expensive model, you route each one to the option that gives the best tradeoff between cost, speed, and accuracy. This can be as simple as keyword rules or as advanced as a learned router model.
 
 ## Key Concepts
-- **Routing Rules:** Static or dynamic logic that selects a model.
-- **Confidence Scores:** Metrics to decide if escalation or fallback is needed.
-- **Audit Trails:** Records of routing decisions for debugging and cost analysis.
+- **Rule-based routing**: Hard-coded logic chooses models (e.g., "if query mentions 'code', use a coding model").
+- **Confidence-based routing**: Start with a fast model and only escalate when the answer is uncertain.
+- **Ensemble routing**: Run several models in parallel and combine their outputs (e.g., majority vote or weighted scoring).
+- **Router function**: The component that inspects a request and decides which model(s) to invoke.
 
 ## When to Use This
-- **Mixed workloads** where different models excel at different tasks.
-- **Budget-sensitive systems** that prefer cheaper models when possible.
-- **High reliability environments** needing fallbacks when a model fails.
+- **Use when**: You have multiple models with different strengths or costs.
+- **Use when**: You need predictable latency or budget control.
+- **Don't use when**: A single model already meets all requirements.
+- **Consider alternatives**: Tuning one high‑quality model instead of maintaining many.
 
 ## Real-World Examples
-- **API gateways** that route simple questions to fast models and complex ones to GPT-4.
-- **Document processors** that switch between OCR and NLP models depending on file type.
-- **Support bots** that escalate to premium models when user sentiment is negative.
+- **Rule-based**: OpenAI recommends routing simple tasks to `gpt-3.5` and complex reasoning to `gpt-4` → [OpenAI Model Selection](https://platform.openai.com/docs/guides/text-generation/selecting-model)
+- **Confidence-based**: LlamaIndex's Router Query Engine picks a model based on similarity scores and escalates on low confidence → [LlamaIndex Router](https://docs.llamaindex.ai/en/stable/module_guides/advanced/modules/query_engine/route_query_engine/)
+- **Ensemble**: Self-consistency techniques run multiple model instances and select the most consistent answer → [Self‑Consistency Paper](https://arxiv.org/abs/2203.11171)
 
 ## Common Pitfalls
-- **Rule sprawl**: Too many rules can be hard to manage.
-- **Unclear metrics**: Without logging and evaluation it's hard to improve routing.
-- **Latency penalties**: Complex evaluation steps slow down responses.
+- **Over-routing**: Too many rules or thresholds can add latency and complexity.
+- **No feedback loop**: Without evaluation, routing decisions may degrade over time.
+- **Cost surprises**: Escalation to expensive models without limits can blow your budget.
 
 ## Next Steps
-- **Combine with ensembles**: [Multi-LLM Strategies](multi-llm.md) shows how to blend outputs after routing.
-
+- **Learn more**: [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md) - Patterns that often pair with routing strategies
+- **Measure it**: [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Track routing quality and costs
+- **Scale it**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - Deploy routers and models in production

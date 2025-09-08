@@ -20,6 +20,7 @@
 - [Red Teaming](ai-architecture-topics/red-teaming.md) - Scenario generation, attack simulations, and reporting workflows
 - [Security & Compliance](ai-architecture-topics/security-compliance.md) - Regulatory requirements, encryption, and model provenance tracking
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
+- [Model Routing](ai-architecture-topics/model-routing.md) - Route requests to the right model using rules or ensembles
 - [Cloud for AI](ai-architecture-topics/cloud-for-ai.md) - AWS, Azure, and GCP services and best practices
 - [Multi-Cloud](ai-architecture-topics/multi-cloud.md) - Portability, data residency, failover, and cost arbitrage
 - [Model Routing](ai-architecture-topics/model-routing.md) - Dynamically choose the best model for a task
@@ -63,9 +64,10 @@ This repository curates learning resources, certifications, career tips, and int
 ## 🚦 Quick Start
 
 1. **New to AI Architecture?** Start with [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md)
-2. **Building RAG systems?** Check [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md)
-3. **Preparing for interviews?** Jump to [Interview Prep](interview-prep.md)
-4. **Career planning?** Explore [Career Guide](career.md)
+2. **Choosing between models?** Learn [Model Routing](ai-architecture-topics/model-routing.md)
+3. **Building RAG systems?** Check [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md)
+4. **Preparing for interviews?** Jump to [Interview Prep](interview-prep.md)
+5. **Career planning?** Explore [Career Guide](career.md)
 
 ## 📖 How to Use This Guide
 
