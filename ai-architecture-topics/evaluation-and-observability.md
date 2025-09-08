@@ -70,6 +70,7 @@ summary: "Measure AI system performance, track costs, and monitor quality using 
 - **[MLflow Evaluation](https://mlflow.org/docs/latest/tracking.html)** - Open-source platform for ML experiment tracking and evaluation
 
 ## Next Steps
+- **Deep dive**: [Observability](ai-architecture-topics/observability.md) - Prometheus, OpenTelemetry, drift detection, and alerting practices
 - **Learn more**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - How to deploy and scale your AI system in production
 - **Try it**: [LangSmith Quickstart](https://docs.smith.langchain.com/quickstart) - Start monitoring your AI app in minutes
 - **Connect**: [ML Observability Community](https://github.com/topics/ml-observability) - Join discussions about ML monitoring and evaluation

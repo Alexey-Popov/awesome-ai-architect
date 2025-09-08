@@ -69,8 +69,10 @@ AI systems can be tricked, hacked, or made to do harmful things if not properly 
 - **[LangChain Security Guide](https://python.langchain.com/docs/security/)** - How to build secure applications with LangChain and best practices
 
 ## Next Steps
+- **Test defenses**: [Red Teaming](ai-architecture-topics/red-teaming.md) - Scenario generation, attack simulations, and reporting workflows
 - **Learn more**: [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - How to monitor your AI system for security issues
 - **Apply policies**: [Guardrails](ai-architecture-topics/guardrails.md) - Frameworks for enforcing safe AI interactions
+- **Explore compliance**: [Security & Compliance](ai-architecture-topics/security-compliance.md) - Regulatory requirements, encryption, and model provenance tracking
 - **Try it**: [NeMo Guardrails Quickstart](https://docs.anyscale.com/guardrails/getting-started) - Add safety to your AI app in minutes
 - **Connect**: [AI Security Community](https://github.com/topics/ai-security) - Join discussions about AI safety and security
 
