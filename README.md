@@ -13,6 +13,8 @@
 - [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Testing, monitoring, and cost tracking
 - [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10, guardrails, and best practices
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
+- [Model Routing](ai-architecture-topics/model-routing.md) - Dynamically choose the best model for a task
+- [Multi-LLM Strategies](ai-architecture-topics/multi-llm.md) - Voting, specialists, and cost-aware selection
 
 ### 🎓 Learning Resources
 - [Courses](courses.md) - AI engineering and solution architecture courses
