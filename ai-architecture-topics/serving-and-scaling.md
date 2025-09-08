@@ -78,6 +78,7 @@ summary: "Deploy AI models in production with inference servers, GPU optimizatio
 - **Optimize network**: Minimize data transfer between services
 
 ## Next Steps
+- **Learn more**: [Cloud for AI](ai-architecture-topics/cloud-for-ai.md) - Compare AWS, Azure, and GCP services
 - **Dive into hardware**: [Inference Infrastructure](ai-architecture-topics/inference-infrastructure.md) - Choose accelerators and quantization strategies
 - **Learn more**: [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - How to coordinate multiple AI services
 - **Try it**: [vLLM Quickstart](https://docs.vllm.ai/en/latest/getting_started/quickstart.html) - Deploy your first high-performance inference server
