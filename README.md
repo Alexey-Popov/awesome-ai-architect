@@ -14,6 +14,7 @@
 - [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10, guardrails, and best practices
 - [Security & Compliance](ai-architecture-topics/security-compliance.md) - Regulatory requirements, encryption, and model provenance tracking
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
+- [Multi-Cloud](ai-architecture-topics/multi-cloud.md) - Portability, data residency, failover, and cost arbitrage
 - [Model Routing](ai-architecture-topics/model-routing.md) - Dynamically choose the best model for a task
 - [Multi-LLM Strategies](ai-architecture-topics/multi-llm.md) - Voting, specialists, and cost-aware selection
 - [Data Scraping](ai-architecture-topics/data-scraping.md) - robots.txt, throttling, and content licensing
