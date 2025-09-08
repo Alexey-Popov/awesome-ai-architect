@@ -1,0 +1,10 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="100" y="80" width="160" height="160" fill="none" stroke="blue" stroke-width="4" />
+  <text x="180" y="165" font-size="20" fill="blue" text-anchor="middle">Cloud A</text>
+  <rect x="540" y="80" width="160" height="160" fill="none" stroke="green" stroke-width="4" />
+  <text x="620" y="165" font-size="20" fill="green" text-anchor="middle">Cloud B</text>
+  <rect x="320" y="220" width="160" height="140" fill="none" stroke="gray" stroke-width="4" />
+  <text x="400" y="295" font-size="20" fill="gray" text-anchor="middle">Data Layer</text>
+  <line x1="260" y1="160" x2="320" y2="290" stroke="black" stroke-width="3" />
+  <line x1="540" y1="160" x2="480" y2="290" stroke="black" stroke-width="3" />
+</svg>
