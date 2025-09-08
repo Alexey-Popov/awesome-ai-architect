@@ -13,6 +13,7 @@
 - [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Testing, monitoring, and cost tracking
 - [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10, guardrails, and best practices
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
+- [Genetic Memory](ai-architecture-topics/genetic-memory.md) - Vector memory, knowledge graphs, and retention
 
 ### 🎓 Learning Resources
 - [Courses](courses.md) - AI engineering and solution architecture courses
