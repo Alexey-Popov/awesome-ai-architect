@@ -9,11 +9,27 @@
 ### 🏗️ Core Topics
 - [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md) - RAG, agents, pipelines, and orchestration
 - [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md) - Storage, retrieval, and similarity search
+- [Databases for AI](ai-architecture-topics/databases-for-ai.md) - Relational tables, vector indexes, feature stores, and metadata catalogs
 - [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - Inference servers, GPUs, and autoscaling
+- [Inference Infrastructure](ai-architecture-topics/inference-infrastructure.md) - GPUs, TPUs, quantization, and cost-performance metrics
 - [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Testing, monitoring, and cost tracking
+- [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10 and best practices
+- [Guardrails](ai-architecture-topics/guardrails.md) - NeMo Guardrails, Rebuff, and custom policy engines
+- [Observability](ai-architecture-topics/observability.md) - Prometheus, OpenTelemetry, drift detection, and alerting practices
 - [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10, guardrails, and best practices
+- [Red Teaming](ai-architecture-topics/red-teaming.md) - Scenario generation, attack simulations, and reporting workflows
+- [Security & Compliance](ai-architecture-topics/security-compliance.md) - Regulatory requirements, encryption, and model provenance tracking
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
 - [Model Routing](ai-architecture-topics/model-routing.md) - Route requests to the right model using rules or ensembles
+- [Cloud for AI](ai-architecture-topics/cloud-for-ai.md) - AWS, Azure, and GCP services and best practices
+- [Multi-Cloud](ai-architecture-topics/multi-cloud.md) - Portability, data residency, failover, and cost arbitrage
+- [Model Routing](ai-architecture-topics/model-routing.md) - Dynamically choose the best model for a task
+- [Multi-LLM Strategies](ai-architecture-topics/multi-llm.md) - Voting, specialists, and cost-aware selection
+- [Data Scraping](ai-architecture-topics/data-scraping.md) - robots.txt, throttling, and content licensing
+- [Databases for AI](databases-for-ai.md) - storage choices and responsible data sourcing
+- [Data Lakes & Marts](ai-architecture-topics/data-lakes-and-marts.md) - Lakehouse concepts, ETL/ELT pipelines, and governance
+- [AI Workflow Automation](ai-architecture-topics/ai-workflow-automation.md) - DAG schedulers and model CI/CD
+- [Genetic Memory](ai-architecture-topics/genetic-memory.md) - Vector memory, knowledge graphs, and retention
 
 ### 🎓 Learning Resources
 - [Courses](courses.md) - AI engineering and solution architecture courses

@@ -1,6 +1,6 @@
 ---
 title: "Model Routing"
-summary: "Direct requests to the best model using rules, confidence scores, or ensembles"
+summary: "Dynamically choose the best model for a request using rules, evaluation, or metadata."
 ---
 
 # Model Routing
@@ -49,4 +49,3 @@ Model routing is like having a traffic controller for AI models. Instead of send
 - **Learn more**: [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md) - Patterns that often pair with routing strategies
 - **Measure it**: [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Track routing quality and costs
 - **Scale it**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - Deploy routers and models in production
-
