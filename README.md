@@ -9,6 +9,7 @@
 ### 🏗️ Core Topics
 - [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md) - RAG, agents, pipelines, and orchestration
 - [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md) - Storage, retrieval, and similarity search
+- [Databases for AI](ai-architecture-topics/databases-for-ai.md) - Relational tables, vector indexes, feature stores, and metadata catalogs
 - [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - Inference servers, GPUs, and autoscaling
 - [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Testing, monitoring, and cost tracking
 - [Safety & Security](ai-architecture-topics/safety-and-security.md) - OWASP LLM Top 10, guardrails, and best practices

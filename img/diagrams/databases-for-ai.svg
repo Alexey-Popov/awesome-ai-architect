@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+  <rect width="800" height="400" fill="#ffffff"/>
+  <!-- Boxes -->
+  <rect x="40" y="40" width="160" height="60" fill="#d6eaf8" stroke="#333"/>
+  <text x="120" y="75" font-size="16" text-anchor="middle" fill="#333">Relational DB</text>
+
+  <rect x="600" y="40" width="160" height="60" fill="#fdebd0" stroke="#333"/>
+  <text x="680" y="75" font-size="16" text-anchor="middle" fill="#333">Vector Store</text>
+
+  <rect x="40" y="300" width="160" height="60" fill="#d5f5e3" stroke="#333"/>
+  <text x="120" y="335" font-size="16" text-anchor="middle" fill="#333">Feature Store</text>
+
+  <rect x="600" y="300" width="160" height="60" fill="#f9e79f" stroke="#333"/>
+  <text x="680" y="335" font-size="16" text-anchor="middle" fill="#333">Metadata Catalog</text>
+
+  <rect x="310" y="160" width="180" height="80" fill="#e8daef" stroke="#333"/>
+  <text x="400" y="205" font-size="16" text-anchor="middle" fill="#333">AI Application</text>
+
+  <!-- Arrows -->
+  <line x1="200" y1="70" x2="310" y2="200" stroke="#555" marker-end="url(#arrow)"/>
+  <line x1="600" y1="70" x2="490" y2="200" stroke="#555" marker-end="url(#arrow)"/>
+  <line x1="200" y1="330" x2="310" y2="200" stroke="#555" marker-end="url(#arrow)"/>
+  <line x1="600" y1="330" x2="490" y2="200" stroke="#555" marker-end="url(#arrow)"/>
+
+  <!-- Arrow definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+</svg>
