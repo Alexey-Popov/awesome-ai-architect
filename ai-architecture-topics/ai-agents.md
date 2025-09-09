@@ -7,6 +7,8 @@ summary: "Design AI agents with planning algorithms, tool-calling patterns, and 
 
 > Build agents that plan, call tools, and collaborate with humans.
 
+![ai agents and tools](/img/ai-agents-and-tools.png)
+
 ## TL;DR
 - **Planning algorithms** help agents break tasks into steps and choose the next action.
 - **Tool-calling patterns** allow agents to invoke external APIs or functions for specialized capabilities.
@@ -49,7 +51,6 @@ Agents extend basic language models with goal-directed behavior. They can plan, 
 
 ## Deep Dives & "Why it's awesome"
 - **[LangGraph Documentation](https://langchain-ai.github.io/langgraph/)** - State machines and human-in-the-loop agents.
-- **[ReAct Paper](https://arxiv.org/abs/2210.03629)** - Reasoning and acting in language models.
 
 ## Next Steps
 - Review the broader context in [AI Architecture Patterns](ai-architecture-patterns.md).

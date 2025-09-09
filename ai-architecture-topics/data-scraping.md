@@ -7,6 +7,8 @@ summary: "Best practices for respecting robots.txt, throttling requests, and hon
 
 > Collect data responsibly by honoring site rules, limiting request rates, and verifying licensing terms.
 
+![data acquisition and web scraping](/img/data-acquisition-and-web-scrapping.png)
+
 ## TL;DR
 - **robots.txt** files describe which parts of a site crawlers may access.
 - **Throttling** your requests prevents service disruption and avoids getting blocked.

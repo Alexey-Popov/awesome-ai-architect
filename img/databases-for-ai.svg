@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
-  <rect width="800" height="400" fill="#f0f4f8"/>
-  <text x="400" y="160" font-size="36" text-anchor="middle" fill="#333">Databases for AI</text>
-  <text x="400" y="220" font-size="20" text-anchor="middle" fill="#555">Relational • Vector • Feature • Metadata</text>
-</svg>

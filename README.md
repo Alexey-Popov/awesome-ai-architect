@@ -31,6 +31,7 @@
 - [Data Lakes & Marts](ai-architecture-topics/data-lakes-and-marts.md) - Lakehouse concepts, ETL/ELT pipelines, and governance
 - [AI Workflow Automation](ai-architecture-topics/ai-workflow-automation.md) - DAG schedulers and model CI/CD
 - [Genetic Memory](ai-architecture-topics/genetic-memory.md) - Vector memory, knowledge graphs, and retention
+- [On-Device vs VM](ai-architecture-topics/on-device-vs-vm.md) - Latency, privacy, and hardware trade-offs
 
 ### 🎓 Learning Resources
 - [Courses](courses.md) - AI engineering and solution architecture courses

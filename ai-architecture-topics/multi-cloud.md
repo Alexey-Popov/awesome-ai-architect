@@ -7,7 +7,7 @@ summary: "Strategies for portability, data residency, failover, and cost arbitra
 
 > Build AI systems that span multiple clouds for resilience, compliance, and cost optimization.
 
-![Multi-Cloud](/img/multi-cloud.svg)
+![Multi-Cloud](/img/multi-cloud.png)
 
 ## TL;DR
 - **Portability** keeps your workloads flexible so they can run on any cloud with minimal changes.

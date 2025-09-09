@@ -7,7 +7,7 @@ summary: "Monitor AI systems with Prometheus, OpenTelemetry, drift detection, an
 
 > Keep your AI systems healthy with actionable metrics, traces, and alerts.
 
-![observability](/img/evaluation-and-observability.png)
+![observability](/img/logging-and-monitoring.png)
 
 ## TL;DR
 - **Prometheus** collects and stores metrics so you can see how your system behaves.

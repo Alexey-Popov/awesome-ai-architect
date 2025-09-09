@@ -7,6 +7,8 @@ summary: "Compare AWS, Azure, and GCP services for AI workloads and learn best p
 
 > Choose the right cloud services from AWS, Azure, and GCP to power your AI solutions.
 
+![Cloud for AI](/img/cloud-for-ai.png)
+
 ## TL;DR
 - **AWS, Azure, and GCP** all provide managed AI platforms, but service names and integrations differ.
 - **Managed services** accelerate delivery while **custom deployments** offer flexibility.

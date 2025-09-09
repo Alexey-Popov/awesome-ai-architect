@@ -7,6 +7,8 @@ summary: "Combine multiple language models with voting, specialization, and cost
 
 > Orchestrate several language models to boost accuracy, reduce cost, and leverage specialized strengths.
 
+![Multi-LLM Strategies](/img/multi-llm.png)
+
 ## TL;DR
 - **Weighted voting** lets models cast votes that are averaged or prioritized by confidence.
 - **Specialist models** route tasks to niche models that excel in a domain.

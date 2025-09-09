@@ -7,7 +7,7 @@ summary: "Understand lakehouse architectures, ETL/ELT pipelines, and data govern
 
 > Store, transform, and serve data for AI workloads using scalable lakehouse patterns and governed data marts.
 
-![ai architect data lakes and marts](/img/data-lakes-and-marts.svg)
+![data lakes and data marts](/img/data-lakes-and-data-marts.png)
 
 ## TL;DR
 - **Data lakes** hold raw, large-scale data in open formats.
