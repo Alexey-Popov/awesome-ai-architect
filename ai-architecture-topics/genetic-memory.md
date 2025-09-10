@@ -7,6 +7,8 @@ summary: "Combine vector stores, knowledge graphs, and retention policies for ad
 
 > Design memory systems for AI agents that evolve over time and stay relevant.
 
+![genetic memory](/img/genetic-memory.png)
+
 ## TL;DR
 - **Vector-based memory** stores experiences as embeddings so agents can recall similar situations quickly.
 - **Knowledge graph integration** links memories to structured entities and relationships for richer reasoning.

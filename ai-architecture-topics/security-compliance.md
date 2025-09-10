@@ -7,7 +7,7 @@ summary: "Meet regulatory standards, encrypt data, and track model lineage to bu
 
 > Align AI systems with laws, encrypt sensitive data, and track model origins for accountability.
 
-![Security & Compliance](/img/safety-and-security.png)
+![Security & Compliance](/img/security-and-complience.png)
 
 ## TL;DR
 - Understand and comply with regulations like GDPR, HIPAA, or SOC 2.
