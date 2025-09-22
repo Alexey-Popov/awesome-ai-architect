@@ -13,14 +13,16 @@ summary: "Boost retrieval-augmented generation accuracy with reranking, multi-ho
 - **Hybrid retrieval** combines vector search (semantic) with keyword search (exact matches) for 15-25% better accuracy
 - **Reranking** improves precision by 20-40% but adds 50-200ms latency
 - **Multi-hop retrieval** enables complex reasoning but increases costs by 2-3x
+- **GraphRAG** uses knowledge graphs for 6× cheaper, more accurate complex reasoning
 - **Caching** reduces costs by 60-80% for repeated queries
 
 ## Quickstart (Do this now)
 1. **Start with hybrid search**: Combine vector + keyword search for better recall
 2. **Add reranking**: Use cross-encoder models like BGE-reranker for precision
-3. **Implement caching**: Cache embeddings and final responses to reduce costs
-4. **Test multi-hop**: Build query chains for complex information gathering
-5. **Measure everything**: Track accuracy, latency, and costs with each change
+3. **Consider GraphRAG**: For complex relationships and 6× cost savings
+4. **Implement caching**: Cache embeddings and final responses to reduce costs
+5. **Test multi-hop**: Build query chains for complex information gathering
+6. **Measure everything**: Track accuracy, latency, and costs with each change
 
 ## The Idea (Slightly deeper)
 Basic RAG fetches a few documents and feeds them to a model. Advanced RAG adds extra retrieval steps, re-ranks results, and uses query transformations to find better context. By chaining retrieval and generation, the system can research topics, follow citations, or summarize large corpora.
@@ -33,6 +35,7 @@ Basic RAG fetches a few documents and feeds them to a model. Advanced RAG adds e
 - **Hybrid Search** – combine dense embeddings with traditional keyword filters.
 - **Reranking** – use a cross-encoder model to score and reorder retrieved chunks.
 - **Multi-Hop Retrieval** – run successive searches to traverse related documents.
+- **GraphRAG** – use knowledge graphs with PageRank-weighted edges for complex reasoning.
 - **Caching** – store useful chunks or final answers to avoid repeated work.
 
 ## Cost & Performance Metrics
@@ -50,10 +53,64 @@ Basic RAG fetches a few documents and feeds them to a model. Advanced RAG adds e
 - **Response Cache**: 90%+ cost reduction for identical questions
 - **Chunk Cache**: 40-60% cost reduction for document processing
 
+## GraphRAG vs Traditional RAG
+
+GraphRAG extends traditional RAG by using knowledge graphs instead of just vector similarity. By turning documents into knowledge-graph nodes and walking PageRank-weighted edges at query time, GraphRAG delivers answers that are both cheaper (6×) and easier to trace than vector-only lookups.
+
+### RAG vs GraphRAG Comparison
+
+| Aspect | Traditional RAG | GraphRAG |
+|--------|----------------|----------|
+| **Retrieval Mechanism** | Vector-based similarity search | Knowledge graph traversal with PageRank |
+| **Contextual Understanding** | Limited to retrieved document chunks | Enhanced by entity relationships and graph structure |
+| **Complex Query Handling** | Struggles with multi-hop reasoning | Excels at multi-hop reasoning and complex relationships |
+| **Explainability** | Limited transparency in reasoning | High transparency through graph traversal paths |
+| **Accuracy** | 70-85% on complex queries | 85-95% on complex reasoning tasks |
+| **Cost Efficiency** | Higher token usage for context | 6× cheaper due to targeted retrieval |
+| **Setup Complexity** | Simple vector indexing | Requires knowledge graph construction |
+| **Best For** | General semantic search, simple Q&A | Complex reasoning, research, knowledge-heavy applications |
+
+### When to Choose GraphRAG
+
+**Use GraphRAG when:**
+- Your data has complex relationships (e.g., Wikipedia, research papers, legal documents)
+- You need multi-hop reasoning capabilities
+- Explainability and traceability are crucial
+- You're building knowledge-heavy applications
+- Cost optimization is important (6× cheaper than traditional RAG)
+
+**Use Traditional RAG when:**
+- Your data is primarily unstructured text
+- You need fast, simple semantic search
+- Relationships between entities are not critical
+- You're prototyping or have limited resources for graph construction
+- Your queries are straightforward and don't require complex reasoning
+
+### GraphRAG Implementation
+
+1. **Knowledge Graph Construction**
+   - Extract entities and relationships from documents
+   - Build graph structure with nodes (entities) and edges (relationships)
+   - Apply PageRank algorithm to weight edge importance
+
+2. **Query Processing**
+   - Parse query to identify key entities
+   - Traverse graph using PageRank-weighted paths
+   - Retrieve relevant subgraphs instead of document chunks
+
+3. **Response Generation**
+   - Use retrieved graph context for more accurate responses
+   - Provide traceable reasoning paths
+   - Generate explanations based on graph traversal
+
 ## Decision Tree: Which RAG Pattern to Use?
 
 ```
 Start: Building a RAG system
+│
+├─ Does your data have complex relationships?
+│  ├─ YES → Use GraphRAG (85-95% accuracy, 6× cheaper, complex reasoning)
+│  └─ NO → Continue to next question
 │
 ├─ Is accuracy more important than speed?
 │  ├─ YES → Is budget flexible?
@@ -77,6 +134,7 @@ Start: Building a RAG system
 - **Hybrid Search**: Production systems needing balanced accuracy/speed
 - **Reranking**: High-precision applications, legal/medical domains
 - **Multi-hop**: Complex reasoning, research assistants, citation tracking
+- **GraphRAG**: Knowledge-heavy applications, complex relationships, cost optimization
 - **Caching**: High-traffic systems, repeated queries, cost optimization
 
 ## Implementation Checklist
@@ -131,6 +189,8 @@ Start: Building a RAG system
 - [ColBERT](https://github.com/stanford-futuredata/ColBERT) – efficient late interaction reranker for search.
 - [LlamaIndex RAG pipeline](https://github.com/run-llama/llama_index) – modular retrieval chains with query transforms.
 - [OpenAI function calling with retrieval](https://platform.openai.com/docs/guides/function-calling) – letting models decide follow-up searches.
+- [Microsoft GraphRAG](https://github.com/microsoft/graphrag) – knowledge graph-powered RAG with PageRank weighting.
+- [FastGraphRAG](https://github.com/microsoft/graphrag) – open-source implementation of GraphRAG for production use.
 
 ## Pitfalls
 - Ignoring relevance scores can lead to hallucinated answers.
