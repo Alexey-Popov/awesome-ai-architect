@@ -69,7 +69,7 @@ summary: "Learn how to store, search, and retrieve AI knowledge using vector dat
 - **[Vector Database Comparison](https://zilliz.com/comparison)** - Detailed comparison of different vector database options and when to use each
 
 ## Next Steps
-- **Learn more**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - How to deploy your vector search system in production
+- **Learn more**: [Serving & Scaling](serving-and-scaling.md) - How to deploy your vector search system in production
 - **Try it**: [Pinecone Quickstart](https://docs.pinecone.io/docs/quickstart) - Build your first vector search app in minutes
 - **Connect**: [Vector Search Community](https://github.com/topics/vector-database) - Join discussions about vector databases and embeddings
 

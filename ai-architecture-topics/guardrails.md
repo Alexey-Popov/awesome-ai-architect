@@ -164,7 +164,7 @@ Start: Need to protect AI system
 - **[AI Safety Benchmark](https://github.com/stanford-crfm/helm)** - Holistic evaluation of language models including safety
 
 ## Next Steps
-- **Stay secure**: [Safety & Security](ai-architecture-topics/safety-and-security.md) – broader defense strategies
+- **Stay secure**: [Safety & Security](safety-and-security.md) – broader defense strategies
 - **Try it**: [NeMo Guardrails Quickstart](https://github.com/NVIDIA/NeMo-Guardrails) – build your first policy
 - **Explore**: [Rebuff documentation](https://github.com/intel/orca) – integrate prompt injection checks
 

@@ -116,7 +116,7 @@ flowchart TB
 - **[Cloud Cost Management](https://cloud.google.com/docs/enterprise/best-practices-for-cloud-cost-management)** – Strategies for controlling spend
 
 ## Next Steps
-- **Learn more**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) – Deploy AI models in production
-- **Explore**: [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) – Coordinate workflows across services
+- **Learn more**: [Serving & Scaling](serving-and-scaling.md) – Deploy AI models in production
+- **Explore**: [Orchestration Frameworks](orchestration-frameworks.md) – Coordinate workflows across services
 - **Connect**: [AI Architecture Community](https://github.com/topics/ai-architecture) – Share cloud deployment tips
 

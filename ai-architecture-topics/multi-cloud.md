@@ -72,6 +72,6 @@ flowchart LR
 - **[Crossplane](https://www.crossplane.io/)** – Kubernetes-based control plane for multi-cloud infrastructure.
 
 ## Next Steps
-- **Learn more**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) – Run workloads efficiently across environments.
+- **Learn more**: [Serving & Scaling](serving-and-scaling.md) – Run workloads efficiently across environments.
 - **Try it**: Experiment with a small app deployed to two clouds and practice failover.
 - **Connect**: Research pricing calculators from AWS, Azure, and GCP to compare costs.

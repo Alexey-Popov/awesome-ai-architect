@@ -68,8 +68,8 @@ AI architecture patterns are reusable blueprints for building intelligent system
 - **[LangGraph Documentation](https://langchain-ai.github.io/langgraph/)** - Build complex AI workflows with state management and human-in-the-loop capabilities
 
 ## Next Steps
-- **Learn more**: [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md) - How to store and search the knowledge your RAG system needs
-- **Optimize**: [Model Routing](ai-architecture-topics/model-routing.md) - Send each request to the model best suited for it
+- **Learn more**: [Vector Stores & Embeddings](vector-stores-and-embeddings.md) - How to store and search the knowledge your RAG system needs
+- **Optimize**: [Model Routing](model-routing.md) - Send each request to the model best suited for it
 - **Try it**: [LangChain Quickstart](https://python.langchain.com/docs/get_started/quickstart) - Build your first AI pipeline in minutes
 - **Connect**: [AI Architecture Community](https://github.com/topics/ai-architecture) - Join discussions about AI system design
 

@@ -54,6 +54,8 @@ summary: "Measure AI system performance, track costs, and monitor quality using 
 - **Weights & Biases**: ML experiment tracking and model evaluation → [Weights & Biases](https://wandb.ai/) (industry-standard platform for ML evaluation and collaboration)
 - **Azure AI Studio**: Built-in monitoring and evaluation for Azure AI services → [Azure AI Studio](https://azure.microsoft.com/en-us/products/ai-studio) (integrated observability for Microsoft AI platform)
 - **OpenAI Evals**: Framework for evaluating OpenAI model performance → [OpenAI Evals](https://github.com/openai/evals) (official evaluation tools for OpenAI models)
+- **OpenEvals**: LangChain's prebuilt evaluators for LLM applications → [OpenEvals](https://github.com/langchain-ai/openevals) (structured data extraction and output validation tools)
+- **AgentEvals**: LangChain's agent trajectory evaluation framework → [AgentEvals](https://github.com/langchain-ai/agentevals) (evaluates agent action sequences and decision-making processes)
 
 ## Common Pitfalls
 - **No evaluation baseline**: Always measure performance before and after changes
@@ -68,11 +70,12 @@ summary: "Measure AI system performance, track costs, and monitor quality using 
 - **[AWS ML Observability](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html)** - AWS framework for monitoring ML models in production
 - **[Google Cloud AI Platform Monitoring](https://cloud.google.com/ai-platform/prediction/docs/continuous-monitoring)** - Google's ML monitoring and evaluation tools
 - **[MLflow Evaluation](https://mlflow.org/docs/latest/tracking.html)** - Open-source platform for ML experiment tracking and evaluation
+- **[Evaluating AI Agents Course](https://learn.deeplearning.ai/courses/evaluating-ai-agents)** - Free DeepLearning.AI course on agent evaluation, tracing, and observability (built with Arize AI)
 
 ## Next Steps
-- **Deep dive**: [Observability](ai-architecture-topics/observability.md) - Prometheus, OpenTelemetry, drift detection, and alerting practices
-- **Learn more**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - How to deploy and scale your AI system in production
-- **Try it**: [LangSmith Quickstart](https://docs.smith.langchain.com/quickstart) - Start monitoring your AI app in minutes
+- **Deep dive**: [Observability](observability.md) - Prometheus, OpenTelemetry, drift detection, and alerting practices
+- **Learn more**: [Serving & Scaling](serving-and-scaling.md) - How to deploy and scale your AI system in production
+- **Try it**: [LangSmith Quickstart](https://docs.langchain.com/langsmith/home) - Start monitoring your AI app in minutes
 - **Connect**: [ML Observability Community](https://github.com/topics/ml-observability) - Join discussions about ML monitoring and evaluation
 
 

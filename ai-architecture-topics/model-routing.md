@@ -143,6 +143,6 @@ Start: Need to route requests to different models
 
 
 ## Next Steps
-- **Learn more**: [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md) - Patterns that often pair with routing strategies
-- **Measure it**: [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Track routing quality and costs
-- **Scale it**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - Deploy routers and models in production
+- **Learn more**: [AI Architecture Patterns](ai-architecture-patterns.md) - Patterns that often pair with routing strategies
+- **Measure it**: [Evaluation & Observability](evaluation-and-observability.md) - Track routing quality and costs
+- **Scale it**: [Serving & Scaling](serving-and-scaling.md) - Deploy routers and models in production

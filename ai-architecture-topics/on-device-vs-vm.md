@@ -183,6 +183,6 @@ Start: Need to deploy AI model
 - **[Edge AI Performance](https://github.com/microsoft/EdgeML)** - Microsoft's edge AI optimization tools
 
 ## Next Steps
-- **Explore**: [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md) for hybrid approaches
+- **Explore**: [AI Architecture Patterns](ai-architecture-patterns.md) for hybrid approaches
 - **Prototype**: [TensorFlow Lite](https://www.tensorflow.org/lite) or [ONNX Runtime](https://onnxruntime.ai/) for edge deployments
-- **Scale**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) for production VM deployments
+- **Scale**: [Serving & Scaling](serving-and-scaling.md) for production VM deployments

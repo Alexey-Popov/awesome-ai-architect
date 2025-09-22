@@ -182,7 +182,7 @@ Start: Need to deploy AI model for inference
 - **[Google Cloud TPU Pricing](https://cloud.google.com/tpu/pricing)** - TPU pricing and cost optimization strategies
 
 ## Next Steps
-- **Learn more**: [Serving & Scaling](ai-architecture-topics/serving-and-scaling.md) - Deploy optimized models in production
-- **Measure**: [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) - Monitor latency and spending
-- **Explore**: [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - Manage multi-model pipelines
+- **Learn more**: [Serving & Scaling](serving-and-scaling.md) - Deploy optimized models in production
+- **Measure**: [Evaluation & Observability](evaluation-and-observability.md) - Monitor latency and spending
+- **Explore**: [Orchestration Frameworks](orchestration-frameworks.md) - Manage multi-model pipelines
 
