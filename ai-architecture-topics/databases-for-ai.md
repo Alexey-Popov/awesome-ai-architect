@@ -194,7 +194,7 @@ Start: Need to store data for AI system
 - **[Feature Store Comparison](https://www.featurestore.org/)** - Comprehensive feature store evaluation
 
 ## Next Steps
-- **Learn more**: [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md) - Dig into similarity search.
+- **Learn more**: [Vector Stores & Embeddings](vector-stores-and-embeddings.md) - Dig into similarity search.
 - **Try it**: [Feast Quickstart](https://docs.feast.dev/getting-started/quickstart) - Build your first feature repository.
 - **Connect**: [OpenML Metadata](https://www.openml.org/) - Explore community datasets and metadata.
 

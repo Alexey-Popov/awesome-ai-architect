@@ -76,7 +76,7 @@ summary: "Coordinate multiple AI services and build complex workflows using orch
 - **Prefect**: Best for production workflow management and monitoring
 
 ## Next Steps
-- **Learn more**: [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md) - How to design the workflows your orchestration framework will manage
+- **Learn more**: [AI Architecture Patterns](ai-architecture-patterns.md) - How to design the workflows your orchestration framework will manage
 - **Automate pipelines**: [AI Workflow Automation](ai-workflow-automation.md) - DAG schedulers and model CI/CD
 - **Try it**: [LangChain Quickstart](https://python.langchain.com/docs/get_started/quickstart) - Build your first AI workflow in minutes
 - **Connect**: [AI Orchestration Community](https://github.com/topics/ai-orchestration) - Join discussions about AI workflow management

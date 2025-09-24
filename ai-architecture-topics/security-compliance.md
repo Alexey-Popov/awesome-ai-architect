@@ -43,6 +43,6 @@ Regulatory requirements ensure AI systems meet legal and industry standards. Enc
 - **No audit trail**: Missing metadata makes incident response and compliance reviews difficult.
 
 ## Next Steps
-- **Learn more**: [Safety & Security](ai-architecture-topics/safety-and-security.md) – Guardrails and threat mitigation.
+- **Learn more**: [Safety & Security](safety-and-security.md) – Guardrails and threat mitigation.
 - **Implement**: [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) – Risk management guidance for AI systems.
 - **Track models**: Use tools like [MLflow](https://mlflow.org/) or [Weights & Biases](https://wandb.ai/) for provenance tracking.

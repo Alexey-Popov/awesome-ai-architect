@@ -210,7 +210,7 @@ Start: Building a RAG system
 - **[Vector Database Cost Comparison](https://zilliz.com/comparison)** - Detailed cost analysis across different vector databases
 
 ## Next Steps
-- **Explore**: [Vector Stores & Embeddings](ai-architecture-topics/vector-stores-and-embeddings.md) for better indexing.
-- **Orchestrate**: [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) to manage multi-step retrieval.
-- **Evaluate**: [Evaluation & Observability](ai-architecture-topics/evaluation-and-observability.md) to measure quality.
+- **Explore**: [Vector Stores & Embeddings](vector-stores-and-embeddings.md) for better indexing.
+- **Orchestrate**: [Orchestration Frameworks](orchestration-frameworks.md) to manage multi-step retrieval.
+- **Evaluate**: [Evaluation & Observability](evaluation-and-observability.md) to measure quality.
 
