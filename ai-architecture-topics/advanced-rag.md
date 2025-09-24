@@ -189,8 +189,7 @@ Start: Building a RAG system
 - [ColBERT](https://github.com/stanford-futuredata/ColBERT) – efficient late interaction reranker for search.
 - [LlamaIndex RAG pipeline](https://github.com/run-llama/llama_index) – modular retrieval chains with query transforms.
 - [OpenAI function calling with retrieval](https://platform.openai.com/docs/guides/function-calling) – letting models decide follow-up searches.
-- [Microsoft GraphRAG](https://github.com/microsoft/graphrag) – knowledge graph-powered RAG with PageRank weighting (standard method using language models for entity extraction).
-- [FastGraphRAG](https://github.com/microsoft/graphrag) – alternative method within the GraphRAG project that uses traditional NLP techniques for faster, more cost-effective indexing.
+- [Microsoft GraphRAG](https://github.com/microsoft/graphrag) – knowledge graph-powered RAG with PageRank weighting, includes both standard GraphRAG and FastGraphRAG methods.
 
 ## Pitfalls
 - Ignoring relevance scores can lead to hallucinated answers.
