@@ -30,4 +30,4 @@ Throttling controls how frequently your scraper makes requests. Use sleep interv
 Content is typically covered by copyright or specific licenses. Verify that the license allows scraping, storage, and redistribution for your project.
 
 ## Next Steps
-- Explore storage options in [Databases for AI](../databases-for-ai.md)
+- Explore storage options in [Databases for AI](databases-for-ai.md)
