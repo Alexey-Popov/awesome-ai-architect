@@ -41,8 +41,21 @@
 - [Interview Prep](interview-prep.md) - GenAI system design, practice questions, and frameworks
 
 ### 🏛️ Solution Architecture
-- [Architecture Decision Records](solution-archtecture/architecture-decision-records.md) - Documenting architectural decisions and rationale
-- [Clean Architecture](solution-archtecture/clean-architecture.md) - Organizing code with dependency inversion and separation of concerns
+- [Solution Architecture Fundamentals](solution-architecture/solution-architecture-fundamentals.md) - Core architecture principles, patterns, and practices
+- [Architectural Patterns & Styles](solution-architecture/architectural-patterns-styles.md) - Design patterns and architectural styles for robust solutions
+- [Architecture Decision Records](solution-architecture/architecture-decision-records.md) - Documenting architectural decisions and rationale
+- [Clean Architecture](solution-architecture/clean-architecture.md) - Organizing code with dependency inversion and separation of concerns
+- [Business Architecture](solution-architecture/business-architecture.md) - Bridge business strategy and technology implementation
+- [Technical Architecture](solution-architecture/technical-architecture.md) - Design robust, scalable, and maintainable technical solutions
+- [Requirements Analysis](solution-architecture/requirements-analysis.md) - Master requirements analysis and architecturally significant requirements
+- [Quality Attributes](solution-architecture/quality-attributes.md) - Master quality attributes and their impact on architecture design
+- [Architecture Modeling](solution-architecture/architecture-modeling.md) - Master architecture modeling techniques and notations
+- [Architecture Governance](solution-architecture/architecture-governance.md) - Establish effective governance frameworks for architectural consistency
+- [Architecture Assessment & Maturity](solution-architecture/architecture-assessment-maturity.md) - Evaluate and improve architectural capabilities
+- [Architecture Tools & Practices](solution-architecture/architecture-tools-practices.md) - Master tools, techniques, and practices for effective architecture
+- [Cloud Infrastructure](solution-architecture/cloud-infrastructure.md) - Master cloud infrastructure design and deployment
+- [Estimation Techniques](solution-architecture/estimation-techniques.md) - Master estimation techniques for accurate project planning
+- [Presales Architecture](solution-architecture/presales-architecture.md) - Master presales architecture practices for winning proposals
 
 ## 🚀 Introduction
 
