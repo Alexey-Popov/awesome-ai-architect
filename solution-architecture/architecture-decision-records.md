@@ -236,6 +236,7 @@ We will use PostgreSQL as our primary database technology.
 - [Michael Nygard's ADR Template](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 - [Arachne Framework ADR Repository](https://github.com/arachne-framework/architecture)
 - [Log4Brains Tool](https://github.com/thomvaill/log4brains)
+- [Mneme HQ](https://github.com/TheoV823/mneme) - ADR enforcement for AI coding agents. Turns ADRs into deterministic pre-generation checks for Claude Code, Cursor, and Copilot.
 
 ## Related Topics
 
