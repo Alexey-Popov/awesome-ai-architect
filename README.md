@@ -31,6 +31,8 @@
 - [On-Device vs VM](ai-architecture-topics/on-device-vs-vm.md) - Latency, privacy, and hardware trade-offs
 
 ### 💻 AI for Software Engineering Skills
+
+- [MySpec](https://myspec.dev) — Spec-driven development platform compiling guided developer discovery interviews into deterministic 4-file specification bundles (`constitution.md`, `requirements.md`, `solution.md`, `tasks.md`) with MCP server integration.
 - [AI Coding Foundations & Trust](ai-for-software-engineering-skills/ai-coding-foundations.md) - AI coding interaction modes, human accountability, and safe adoption
 - [Context, Model & Prompt](ai-for-software-engineering-skills/context-model-prompt.md) - Curate context, route tasks to suitable models, and request verifiable output
 - [Specification-Driven Development](ai-for-software-engineering-skills/specification-driven-development.md) - Durable specs, API contracts, task decomposition, and validation
