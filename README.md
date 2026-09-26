@@ -19,6 +19,7 @@
 - [Red Teaming](ai-architecture-topics/red-teaming.md) - Scenario generation, attack simulations, and reporting workflows
 - [Security & Compliance](ai-architecture-topics/security-compliance.md) - Regulatory requirements, encryption, and model provenance tracking
 - [Orchestration Frameworks](ai-architecture-topics/orchestration-frameworks.md) - LangChain, LangGraph, and workflow tools
+- [Code Execution Sandboxes](https://e2b.dev/) - E2B micro-VMs for isolated tool execution and security
 - [Advanced RAG](ai-architecture-topics/advanced-rag.md) - Multi-hop retrieval, rerankers, and feedback loops
 - [Cloud for AI](ai-architecture-topics/cloud-for-ai.md) - AWS, Azure, and GCP services and best practices
 - [Multi-Cloud](ai-architecture-topics/multi-cloud.md) - Portability, data residency, failover, and cost arbitrage
