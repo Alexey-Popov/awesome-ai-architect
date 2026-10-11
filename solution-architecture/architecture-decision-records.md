@@ -237,6 +237,7 @@ We will use PostgreSQL as our primary database technology.
 - [Arachne Framework ADR Repository](https://github.com/arachne-framework/architecture)
 - [Log4Brains Tool](https://github.com/thomvaill/log4brains)
 - [Mneme HQ](https://github.com/TheoV823/mneme) - ADR enforcement for AI coding agents. Turns ADRs into deterministic pre-generation checks for Claude Code, Cursor, and Copilot.
+- [Archcore](https://github.com/archcore-ai/archcore) - Git-native context engineering and spec-driven development for AI coding agents. Keeps specs, ADRs, rules, and plans in Git.
 
 ## Related Topics
 
