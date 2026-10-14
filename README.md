@@ -42,6 +42,7 @@
 - [Model Context Protocol (MCP)](ai-for-software-engineering-skills/model-context-protocol.md) - Safe, standard connectivity from AI clients to engineering tools
 - [AI PR Review Automation & Hooks](ai-for-software-engineering-skills/ai-pr-review-automation.md) - First-pass review, workflow triggers, and quality automation
 - [Agentic Systems Architecture & Frameworks](ai-for-software-engineering-skills/agentic-systems-architecture.md) - Governed agent platforms, BMAD Method, and Superpowers
+- [Working with Legacy Codebases](ai-for-software-engineering-skills/legacy-codebase.md) - Map a safe change surface, preserve verified memory, and make small changes with evidence
 
 ### 🎓 Learning Resources
 - [Courses](courses.md) - AI engineering and solution architecture courses

@@ -1,6 +1,8 @@
 /materials/*
 !/materials/updates-August7/
 !/materials/updates-August7/**
+!/materials/legacy-codebase/
+!/materials/legacy-codebase/**
 .cursor/rules/
 .cursor/rules/*.mdc
 .DS_Store
