@@ -31,6 +31,36 @@
 - [Genetic Memory](ai-architecture-topics/genetic-memory.md) - Vector memory, knowledge graphs, and retention
 - [On-Device vs VM](ai-architecture-topics/on-device-vs-vm.md) - Latency, privacy, and hardware trade-offs
 
+### 🛰️ System Design for AI Architects
+- [Distributed Systems Foundations](system-design/distributed-systems-foundations.md) - CAP/PACELC, partial failure, and consistency baselines for AI platforms
+- [Idempotency, Retries & Delivery Semantics](system-design/idempotency-retries-delivery.md) - Safe LLM and tool retries without duplicate side effects
+- [Reliability & Failure Design](system-design/reliability-and-failure-design.md) - Timeouts, breakers, bulkheads, and model/cache/human fallbacks
+- [Caching Layers for AI](system-design/caching-for-ai.md) - CDN, response, embedding, retrieval, and model cache layers
+- [Rate Limiting & Throughput](system-design/rate-limiting-and-throughput.md) - Token/QPS quotas, fairness, and backpressure for LLM APIs
+- [AI Request Path & Gateways](system-design/ai-request-path-and-gateways.md) - Client to edge to gateway to guardrails to router to model
+- [Sync, Async & Streaming APIs](system-design/sync-async-streaming-apis.md) - SSE/WebSocket streaming, 202 jobs, and webhooks for long AI work
+- [Event-Driven AI Pipelines](system-design/event-driven-ai-pipelines.md) - Ingest, embed refresh, and eval streams with brokers and queues
+- [Background Jobs & Durable Workflows](system-design/background-jobs-and-durable-workflows.md) - Agents, batch, and reindex beyond HTTP with durable orchestration
+- [Multi-Tenancy for AI Platforms](system-design/multi-tenancy-for-ai.md) - Isolation of indexes, prompts, caches, and models
+- [Multi-Region & High Availability](system-design/multi-region-and-ha.md) - GPU scarcity, residency, and failover for global AI
+- [AuthN & AuthZ for AI](system-design/authn-authz-for-ai.md) - OAuth/OIDC, agent identity, and fine-grained tool/data auth
+- [Data Movement & Lifecycle](system-design/data-movement-and-lifecycle.md) - Ingest, serve, evolve, and delete for AI data planes
+- [State & Service Boundaries](system-design/state-and-service-boundaries.md) - Session and agent state placement with modular boundaries
+- [Agent & Tool Gateways](system-design/agent-and-tool-gateways.md) - Gated tool access with discovery, policy, quotas, and audit
+- [Prompt Caching vs Semantic Caching](system-design/prompt-and-semantic-caching.md) - Prefix reuse vs similarity hits with tenancy-safe keys
+- [KV Cache & Memory Cost](system-design/kv-cache-and-memory-cost.md) - KV cache as a concurrency and context capacity constraint
+- [LLM Efficiency Techniques](system-design/llm-efficiency-techniques.md) - Quantization, distillation, batching, caching, routing, speculative decoding
+- [Speculative Decoding & Serving Engines](system-design/speculative-decoding-and-serving-engines.md) - Draft/verify pattern and serving engine choice
+- [Context Engineering as Architecture](system-design/context-engineering-as-architecture.md) - Context window as a budgeted, governed resource
+- [Agent Memory Architecture](system-design/agent-memory-architecture.md) - Short, long, episodic, and semantic memory with forget policies
+- [Agent Loop & Harness](system-design/agent-loop-and-harness.md) - Planner/executor runtime, budgets, and human-in-the-loop checkpoints
+- [Multi-Agent & Agent Protocols](system-design/multi-agent-and-agent-protocols.md) - Orchestrator vs peer topologies and protocol roles
+- [Skills vs MCP vs RAG Capability Layers](system-design/skills-mcp-rag-capability-layers.md) - Decision matrix for extending models
+- [Model Customization Decision](system-design/model-customization-decision.md) - Prompt, RAG, fine-tune, and LoRA decision tree
+- [Eval Recipes & LLM-as-Judge](system-design/eval-recipes-and-llm-judge.md) - Offline and online eval pipelines as architecture components
+- [AI Cost & Token Economics](system-design/ai-cost-and-token-economics.md) - Unit economics, routing, showback, and chargeback
+- [Realtime & Multimodal AI Architecture](system-design/realtime-and-multimodal-ai-architecture.md) - Voice, streaming transports, and multimodal ingest
+
 ### 💻 AI for Software Engineering Skills
 
 - [MySpec](https://myspec.dev) — Spec-driven development platform compiling guided developer discovery interviews into deterministic 4-file specification bundles (`constitution.md`, `requirements.md`, `solution.md`, `tasks.md`) with MCP server integration.
