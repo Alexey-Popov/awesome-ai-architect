@@ -134,7 +134,5 @@ summary: "Validate your AI and architecture skills with industry-recognized cert
 
 ## Next Steps
 - **Learn more**: [Career Guide](career.md) - How to use certifications to advance your AI architecture career
-- **Try it**: [AWS Free Tier](https://aws.amazon.com/free/) - Start building with AWS services for free
-- **Connect**: [Cloud Certification Community](https://github.com/topics/cloud-certification) - Join discussions about cloud certifications
 
 

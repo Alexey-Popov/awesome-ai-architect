@@ -245,7 +245,3 @@ summary: "Prepare for AI architecture interviews with system design frameworks, 
 
 ## Next Steps
 - **Learn more**: [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md) - Master the patterns you'll design in interviews
-- **Try it**: [System Design Practice](https://bytebytego.com/) - Start practicing with real system design questions
-- **Connect**: [AI Interview Community](https://github.com/topics/ai-interview) - Join discussions about AI interview preparation
-
-

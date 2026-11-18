@@ -85,7 +85,4 @@ summary: "Learn AI engineering and architecture from Carnegie Mellon University 
 
 ## Next Steps
 - **Learn more**: [Certifications](certifications.md) - Validate your skills with industry-recognized certifications
-- **Try it**: [CMU SEI Course Registration](https://www.sei.cmu.edu/training/) - Enroll in your first professional AI engineering course
-- **Connect**: [AI Engineering Community](https://github.com/topics/ai-engineering) - Join discussions about AI engineering and architecture
-
 

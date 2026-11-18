@@ -160,7 +160,6 @@ summary: "Navigate your AI architecture career with role snapshots, portfolio ti
 
 ## Next Steps
 - **Learn more**: [Interview Prep](interview-prep.md) - Prepare for AI architecture job interviews
-- **Try it**: [LinkedIn Profile Optimization](https://www.linkedin.com/learning/topics/profile-optimization) - Optimize your professional profile
-- **Connect**: [AI Architecture Community](https://github.com/topics/ai-architecture) - Join discussions about AI architecture careers
+
 
 
