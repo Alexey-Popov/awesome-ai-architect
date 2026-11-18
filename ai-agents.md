@@ -16,8 +16,8 @@ summary: "Design autonomous agents with planning and memory"
 2. **Add memory**: Use [Genetic Memory](ai-architecture-topics/genetic-memory.md) to persist and retrieve context.
 3. **Test planning**: Give your agent multi-step tasks and refine its tool usage.
 
+
 ## Next Steps
 - Explore more in [Genetic Memory](ai-architecture-topics/genetic-memory.md).
 - Learn about [AI Architecture Patterns](ai-architecture-topics/ai-architecture-patterns.md) for orchestrating agents.
 
-0
