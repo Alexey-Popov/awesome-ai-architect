@@ -249,3 +249,4 @@ summary: "Prepare for AI architecture interviews with system design frameworks, 
 - **Connect**: [AI Interview Community](https://github.com/topics/ai-interview) - Join discussions about AI interview preparation
 
 
+0

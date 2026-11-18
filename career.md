@@ -164,3 +164,4 @@ summary: "Navigate your AI architecture career with role snapshots, portfolio ti
 - **Connect**: [AI Architecture Community](https://github.com/topics/ai-architecture) - Join discussions about AI architecture careers
 
 
+0

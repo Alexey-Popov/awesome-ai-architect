@@ -138,3 +138,4 @@ summary: "Validate your AI and architecture skills with industry-recognized cert
 - **Connect**: [Cloud Certification Community](https://github.com/topics/cloud-certification) - Join discussions about cloud certifications
 
 
+0
